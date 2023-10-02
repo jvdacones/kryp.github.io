@@ -53,7 +53,6 @@
   </head>
   <body id="top">
     <header>
-      <!-- Navbar-->
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar" id="navbar">
         <div class="container"><a class="navbar-brand" href="#"><strong>Straw Hat Pirates</strong></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -71,17 +70,14 @@
       <section>
         <div class="container">
           <div class="row no-gutters">
-                  <!-- Intro Section-->
+                  
     <section class="view" id="intro">
       <video id="intro" autoplay loop muted playsinline>
         <source src="video.mp4" type="video/mp4">
-        <!-- Add additional video sources for different formats if needed -->
-      
     </video>
 
     </section>
   </section>
-      <!-- Intro Section-->
       <section class="view" id="intro">
         <div class="site-bg-img d-flex align-items-center">
           <div class="container">
@@ -203,7 +199,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="wow fadeIn">
-              <h2 class="h1 h1-responsive text-center text-md-center my-5">Gallery</h2>
+              <h2 class="h1 h1-responsive text-center text-md-center my-5"><strong>Gallery</strong></h2>
               <p class="lead blue-grey-text text-center text-md-right"></p>
             </div>
           </div>
@@ -271,7 +267,7 @@
         <div class="container">
           <div class="back" style="backdrop-filter: blur(50px); padding: 10px 10px; border-radius: 25px; box-shadow: 0 0 20px 0 black;">
           <div class="wow fadeIn">
-            <h2 class="h1-responsive h1 black-text text-center my-5">Why to watch ONE PIECE?</h2>
+            <h2 class="h1-responsive h1 black-text text-center my-5"><strong>Why to watch ONE PIECE?</strong></h2>
             <p class="lead blue-text text-center w-responsive mx-auto mb-5"></p>
           </div>
           <div class="row mb-5">
@@ -307,7 +303,7 @@
         <div class="container">
           <div class="back" style="backdrop-filter: blur(50px); padding: 10px 10px; border-radius: 25px; box-shadow: 0 0 20px 0 black;">
             <div class="wow fadeIn">
-            <h2 class="h1 h1-responsive text-center my-5">SHIPS</h2>
+            <h2 class="h1 h1-responsive text-center my-5"><stong>SHIPS</stong></h2>
               <p class="lead blue-text text-center w-responsive mx-auto mb-5"></p>
             </div>
             <div class="row mb-5">
@@ -344,7 +340,7 @@
       <section id="crew">
         <div class="container py-5">
           <div class="wow fadeIn ">
-            <h2 class="h1 h1-responsive black-text text-center my-5 ">Straw Hat Pirates Crew</h2>
+            <h2 class="h1 h1-responsive black-text text-center  my-5" style="text-shadow: 5px 2px 20px rgb(0, 185, 255);"><strong>Straw Hat Pirates Crew</strong></h2>
             <p class="px-5 mb-5 lead text-center blue-grey-text"></p>
           </div>
           <div class="wow fadeInUp mb-5">
@@ -421,7 +417,7 @@
                     <div class="carousel-item">
                       <div class="col"><img class="w3-round-large" src="img/gg.jpeg" alt="image" style="width:300px; height:auto;"/>
                         <div class="back" style="backdrop-filter: blur(50px); padding: 10px 10px; border-radius: 25px; box-shadow: 0 0 20px 0 black;">
-                        <div class="2 lime-text mt-4">Nico Robin</div>
+                        <div class="h2 lime-text mt-4">Nico Robin</div>
                         <h6 class="h4 light-blue-text mb-3"><span>Archaeologist</span></h6>
                         <p class="white-text">Also known by her epithet "Devil Child" and the "Light of the Revolution", is the archaeologist of the Straw Hat Pirates. She is the seventh member of the crew and the sixth to join. As the sole survivor of the destroyed West Blue island Ohara, she is currently one of only two people in the world known to have the ability to read and decipher Poneglyphs.</p>
                       </div>
@@ -465,7 +461,7 @@
         <div class="black py-5">
           <div class="container">
             <div class="wow fadeIn">
-              <h2 class="h1 h1-responsive text-center my-5">Contact us</h2>
+              <h2 class="h1 h1-responsive text-center my-5"><strong>Contact Us</strong></h2>
               <p class="white-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem pariatur ut suscipit possimus labore eius iure! Perspiciatis ducimus amet voluptatum, consectetur nostrum blanditiis a optio, ipsum tenetur itaque aperiam. Nemo.</p>
 
             </div>
@@ -643,13 +639,12 @@
       document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.carousel');
   var instances = M.Carousel.init(elems, {
-    // Options for the carousel
-    fullWidth: true, // Set to true for full-width carousel
-    indicators: true, // Show carousel indicators
-  });
+    
+    fullWidth: true, 
+    indicators: true, 
+  }:
 
-  // Decrease the autoplay interval for faster autoplay
-  var autoplayInterval = 100; // Set to the desired interval in milliseconds
+  var autoplayInterval = 100;
 
   function autoplay() {
     var instance = M.Carousel.getInstance(elems[0]);
